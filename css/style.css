@@ -1,11 +1,11 @@
 @font-face {
     font-family: 'Groovadelic NF';
-    src: url('fonts/GroovadelicNF.ttf') format('truetype');
+    src: url('../fonts/GroovadelicNF.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'Disco Inferno NF';
-    src: url('fonts/DiscoInfernoNF.ttf') format('truetype');
+    src: url('../fonts/DiscoInfernoNF.ttf') format('truetype');
 }
 
 
