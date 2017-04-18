@@ -1,0 +1,130 @@
+@font-face {
+    font-family: 'Groovadelic NF';
+    src: url('fonts/GroovadelicNF.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Disco Inferno NF';
+    src: url('fonts/DiscoInfernoNF.ttf') format('truetype');
+}
+
+
+body{
+  text-align: center;
+  background: black;
+}
+
+#navbar .abtTxt{
+  display: none;
+  font-size: 35px;
+}
+
+#title{
+  background: -webkit-linear-gradient(#FF5F6D, #FFC371);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: 'Disco Inferno NF';
+  font-size: 55px;
+}
+
+.container {
+    background-color: black;
+    height: 512px;
+    width: 512px;
+    margin: auto;
+    position:relative;
+    border-radius: 100;
+    border-color: 10px black;
+}
+
+.cell {
+    background-color: #FFC371;
+    height: 32px;
+    width: 32px;
+    margin: auto;
+    display: inline-block;
+    float: left;
+}
+
+#navbar li{
+  display:inline-block;
+  list-style-type: none;
+  background: -webkit-linear-gradient(#FF5F6D, #FFC371);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 45px;
+  font-family: 'Groovadelic NF';
+  margin-right: 50px;
+  cursor: pointer;
+}
+
+.rainbow{
+  display: inline;
+}
+
+input[type=checkbox] {
+	visibility: hidden;
+}
+
+.checkboxThree {
+	width: 130px;
+	height: 30px;
+	background: #333;
+	margin: 20px 20px;
+
+	border-radius: 50px;
+	position: relative;
+  text-align: center;
+  display: inline-block;
+}
+
+.checkboxThree:before {
+	content: 'On';
+	position: absolute;
+	top: 7px;
+	left: 13px;
+	height: 2px;
+	color: #FF5F6D;
+	font-size: 16px;
+}
+
+.checkboxThree:after {
+	content: 'Off';
+	position: absolute;
+	top: 7px;
+	left: 84px;
+	height: 2px;
+	color: #FFC371;
+	font-size: 16px;
+}
+
+.checkboxThree label {
+	display: block;
+	width: 60px;
+	height: 22px;
+	border-radius: 50px;
+
+	transition: 0.5s, ease;
+	cursor: pointer;
+	position: absolute;
+	top: 4px;
+	z-index: 1;
+	left: 10px;
+  right: 10px;
+  background: #FF5F6D;
+}
+
+.checkboxThree input[type=checkbox]:checked + label {
+	left: 60px;
+	background: #FFC371;
+}
+
+.groovy{
+  background: -webkit-linear-gradient(#FF5F6D, #FFC371);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 25px;
+  font-family: 'Groovadelic NF';
+  margin-top: 35px;
+  display: inline;
+}
